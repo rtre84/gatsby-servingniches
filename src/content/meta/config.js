@@ -1,11 +1,11 @@
 const base = {
-  name: 'Gatsby Starter Kit',
+  name: 'Serving Niches',
   url: 'https://github.com/greglobinski/gatsby-starter-kit'
 };
 
 const config = {
   /* meta tags */
-  siteTitle: `${base.name} - a series of GatsbyJS starters`,
+  siteTitle: `${base.name} - online marketing approached differently`,
   siteTitlePostfix: ` - ${base.name}`,
   siteDescription: `${
     base.name
@@ -15,7 +15,8 @@ const config = {
 
   /* site header */
   headerTitle: `${base.name}`,
-  headerSubTitle: 'a series of starters for GatsbyJS',
+  headerSubTitle: 'online marketing approached differently',
+  headerLogo: '../../static/favicon.ico',
 
   /* url */
   siteUrl: base.url

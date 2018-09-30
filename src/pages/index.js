@@ -15,6 +15,9 @@ import Seo from '@react-website-themes/default/components/Seo';
 import config from 'content/meta/config';
 import menuItems from 'content/meta/menu';
 
+import ServingNichesLogo from '../../static/favicon.ico';
+
+
 const IndexPage = props => {
   const {
     data: {
@@ -36,7 +39,8 @@ const IndexPage = props => {
   return (
     <Layout>
       <Header>
-        <Branding title={headerTitle} subTitle={headerSubTitle} />
+        <img src={ServingNichesLogo} alt={'serving niches logo'} width={50} height={50} />
+        {/*<Branding title={headerTitle} subTitle={headerSubTitle} />*/}
         <Menu items={menuItems} />
       </Header>
       <Hero html={heroHTML} />
