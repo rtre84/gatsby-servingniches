@@ -25,6 +25,7 @@
     "gatsby-plugin-resolve-src": "2.0.0-beta.1",
     "gatsby-plugin-sharp": "2.0.5",
     "gatsby-plugin-sitemap": "2.0.1",
+    "gatsby-plugin-typography": "^2.2.0",
     "gatsby-remark-copy-linked-files": "2.0.5",
     "gatsby-remark-emojis": "^0.2.3",
     "gatsby-remark-external-links": "^0.0.4",
@@ -43,7 +44,12 @@
     "react-emotion": "^9.2.9",
     "react-facebook": "^5.0.3",
     "react-feather": "^1.1.1",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-typography": "^0.16.13",
+    "typography": "^0.16.17",
+    "typography-theme-fairy-gates": "^0.15.11",
+    "typography-theme-irving": "^0.15.10",
+    "typography-theme-lawton": "^0.15.10"
   },
   "devDependencies": {
     "@babel/preset-flow": "^7.0.0-rc.1",

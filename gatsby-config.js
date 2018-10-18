@@ -6,8 +6,15 @@ module.exports = {
     title: config.siteTitle,
     siteUrl: config.siteUrl,
     description: config.siteDescription,
+    siteTheme: config.siteTheme,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/themes/${config.siteTheme}/utils/typography.js`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

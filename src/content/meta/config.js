@@ -1,11 +1,11 @@
 const base = {
   name: 'Serving Niches',
-  url: 'https://github.com/greglobinski/gatsby-starter-kit'
+  url: 'https://github.com/ServingNiches'
 };
 
 const config = {
   /* meta tags */
-  siteTitle: `${base.name} - online marketing approached differently`,
+  siteTitle: `${base.name} - online marketing done differently`,
   siteTitlePostfix: ` - ${base.name}`,
   siteDescription: `${
     base.name
@@ -15,12 +15,15 @@ const config = {
 
   /* site header */
   headerTitle: `${base.name}`,
-  headerSubTitle: 'online marketing approached differently',
+  headerSubTitle: 'online marketing done differently',
   headerLogo: '../../static/favicon.ico',
 
   /* url */
-  siteUrl: base.url
+  siteUrl: base.url,
   // pathPrefix: '',
+
+  /* theme */
+  siteTheme: "serving-niches"
 };
 
 module.exports = config;

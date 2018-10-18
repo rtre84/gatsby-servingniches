@@ -2,6 +2,6 @@
 name: footerLinks
 ---
 
-- [Github](https://github.com/greglobinski/gatsby-starter-kit)
-- Built by [greg lobinski](https://www.greglobinski.com)
-- [Front-end web development](https://dev.greglobinski.com)
+- Built by [Anup Vasudevan](https://www.greglobinski.com)
+- [Github](https://github.com/ServingNiches)
+- [Twitter](https://twitter.com/thechronicler)

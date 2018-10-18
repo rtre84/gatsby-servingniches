@@ -2,4 +2,4 @@
 name: copyrightNote
 ---
 
-Copyright 2018 greg lobinski
+&copy Copyright 2008 - 2018 | servingiches.com

@@ -1,8 +1,28 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+// import { withRouter } from 'react-router';
+import { withRouter } from "@reach/router"
 
 export default class HTML extends React.Component {
+  // static propTypes = {
+  //   match: PropTypes.object.isRequired,
+  //   location: PropTypes.object.isRequired,
+  //   history: PropTypes.object.isRequired
+  // };
+
+  styleSetter(url_path) {
+    console.log(url_path);
+    // if (this.props.location.pathname === '/') {
+    if (url_path === '/') {
+      // return 'backgroundColor: "#faebd7"';
+      return true;
+    }
+  };
+
   render() {
+    const { location } = this.props;
+    console.log(this.props);
+
     return (
       <html {...this.props.htmlAttributes}>
         <head>
@@ -26,7 +46,7 @@ export default class HTML extends React.Component {
           />
           {this.props.headComponents}
         </head>
-        <body {...this.props.bodyAttributes}>
+        <body style={typeof(this.props.location) !== "undefined" ? {"backgroundColor": "#faebd7"} : null} {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
           <div
             key={`body`}

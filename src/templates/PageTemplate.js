@@ -18,6 +18,7 @@ import Seo from '@react-website-themes/default/components/Seo';
 
 import config from 'content/meta/config';
 import menuItems from 'content/meta/menu';
+import ServingNichesLogo from '../../static/logo.png';
 
 const PageTemplate = props => {
   const {
@@ -45,7 +46,7 @@ const PageTemplate = props => {
   return (
     <Layout>
       <Header>
-        <Branding title={headerTitle} subTitle={headerSubTitle} />
+        <img src={ServingNichesLogo} alt={'serving niches logo'} width={132} height={81}/>
         <Menu items={menuItems} />
       </Header>
       <Article>

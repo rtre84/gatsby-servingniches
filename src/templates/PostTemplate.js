@@ -34,6 +34,7 @@ import NextIcon from 'react-feather/dist/icons/arrow-right';
 import FacebookIcon from 'react-feather/dist/icons/facebook';
 import TwitterIcon from 'react-feather/dist/icons/twitter';
 import EmailIcon from 'react-feather/dist/icons/mail';
+import ServingNichesLogo from '../../static/logo.png';
 
 const metaIcons = {
   calendar: CalendarIcon,
@@ -87,7 +88,7 @@ const PostTemplate = props => {
   return (
     <Layout>
       <Header>
-        <Branding title={headerTitle} subTitle={headerSubTitle} />
+        <img src={ServingNichesLogo} alt={'serving niches logo'} />
         <Menu items={menuItems} />
       </Header>
       <Article>
